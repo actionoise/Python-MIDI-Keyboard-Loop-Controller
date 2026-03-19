@@ -2,7 +2,7 @@
 Python MIDI + Keyboard Loop Controller
 ======================================
 
-Author: Michele Tavolacci
+
 
 Overview
 --------
@@ -118,7 +118,7 @@ MIDI Support
 ----------------------------------------------------
 
 The script can also be controlled with a MIDI keyboard.
-im using is an M-vave smk25-II but everyone can use 
+im using  a M-vave smk25-II but everyone can use 
 just to check the channel midi and the key of the keyboard 
 connected via usb; use the sketch keyboard IDentify.py for this.
 
@@ -144,9 +144,13 @@ Example:
 python improvvisation.py kick.wav --speed 1.0 --keystart 1 --kspeedplus w --kspeedminus q --kspeeddef o --midi-device 17 --midistart 60 --midispeedplus 62 --midispeedminus 59 --midispeeddef 64
  
 --------------Complete example of all function---------------------------------------
+
 python improvvisation.py kick1.wav --speed 1.0 --keystart 1 --kspeedplus w --kspeedminus q --kspeeddef o --midi-device 17 --midistart 40 --midispeedplus 62 --midispeedminus 59 --midispeeddef 64 --midispeedctrl 30 --startmode hold
-(or --startmode toggle)
-START MODES
+
+-------------------
+#(or --startmode toggle)
+
+###START MODES function###
 ------------------------------------------------------------
 
 --startmode toggle
